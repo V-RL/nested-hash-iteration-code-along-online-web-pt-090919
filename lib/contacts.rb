@@ -20,3 +20,4 @@ contacts.each do |a, b|
   binding.pry
 end
 end
+end
