@@ -15,11 +15,12 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
+  hash = ""
 contacts.each do |a, b|
   b.each do |c, d|
     if c == :favorite_ice_cream_flavors
       d.each do |flavor|
-        flavor.shift
+      hash = flavor.shift
 end
 end
 end
